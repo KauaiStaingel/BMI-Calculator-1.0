@@ -7,6 +7,7 @@ function search(){
     let height = Number(hgt.value)
     let men = sex[0].checked
     let imc = weight / height**2
+    let wrong = weight <= 0 || height<=0 || weight >= 500 || height >=3
 
     let magreza = imc < 18.5
     let normal = imc >= 18.5 && imc < 24.5
@@ -14,7 +15,11 @@ function search(){
     let obesidade = imc >= 30 && imc <= 39.9
     let obesidadeGrave = imc >=40
 
-    if (men && magreza){
+    
+    if(wrong){
+        window.alert('Valores incorretos ou impossiveis, Tente novamente!')
+        }
+    else if (men && magreza){
         res.innerHTML += `<p> Seu IMC teve o resultado de ${imc}`
         res.innerHTML += `<p>Detectamos um Homem com Magreza.</p>`
     } 
