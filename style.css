@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(203, 153, 250);
+}
+
+
+
+
+main{
+    background-color: white;
+    margin: 10px auto;
+    max-width: 1240px;
+    min-width: 320px;
+    border-radius: 20px;
+    
+}
+
+h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px 10px 40px 10px;
+    padding: 40px 20px 10px 20px;
+
+}
+
+section{
+    padding:20px;
+    max-width: 1240px;
+    min-width: 320px;
+    text-align: center;
+    
+}
+
+fieldset{
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+label{
+    font-size: 1.3em;
+    padding: 10px 0px 10px 10px;
+    margin: 30px 0px 20px 30px;
+}
+.rad{
+    margin-right: 80px;
+}
+
+.number{
+    border: none;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.493);
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.search{
+    padding: 5px 20px;
+    margin: auto;
+}
+p{
+    text-align: center;
+    padding: 10px ;
+}
+

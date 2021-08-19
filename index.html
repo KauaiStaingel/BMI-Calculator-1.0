@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso Ideal IMC</title>
+
+    <link rel="shortcut icon" href="../../HTML E CSS/EXERCICIOS/Modulo 2- Guanabara/desafio com guanabara/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculo De IMC</h1>
+
+        <section>
+
+                <fieldset>
+                    <label for="peso">Peso:</label>
+                    <input class="number" type="number" name="peso" id="weight"> Kg.
+                    <label for="altura">Altura:</label>
+                    <input class="number" type="number" name="altura" id="height"> m.
+                </fieldset>
+
+                <fieldset>
+                    <label class="rad" for="men"><input  type="radio" name="radsex" id="men" checked>Homem</label>
+                    <label class="r" for="women"><input  type="radio" name="radsex" id="women" >Mulher</label>
+                </fieldset>
+                
+                <input class="search" type="submit" value="search" onclick="search()">
+
+        </section>
+        
+        <div id=result>
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+    <script src="code.js"></script>
+</body>
+</html>
